@@ -6,7 +6,8 @@ on:
       docker_image:
         description: 'The Docker image to scan'
         required: true
-        default: 'chainguard/squid-proxy:latest'
+        default: 'chainguard/squid-proxy@sha256:e9a45d582efa319bad4bf899b3a6634746011b3ebf9a2864591ebef2a073dc63'
+
 
 jobs:
   scout:

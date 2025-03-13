@@ -6,7 +6,7 @@ on:
       docker_image:
         description: 'The Docker image to scan'
         required: true
-        default: 'ubuntu/squid:latest'
+        default: 'intel/esp-squid:latest'
 
 
 jobs:
